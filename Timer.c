@@ -26,9 +26,9 @@ char getTime(char date[10]){
 	char month[10];
 	char day[10];
 
-	sprintf(year, "%d", t->tm_year + 1900 - 2000);
-	sprintf(month, "%d", t->tm_mon + 1);
-	sprintf(day, "%d", t->tm_mday);
+	// sprintf(year, "%d", t->tm_year + 1900 - 2000);
+	// sprintf(month, "%d", t->tm_mon + 1);
+	// sprintf(day, "%d", t->tm_mday);
 
 	strncpy(years, year, 2);
 	strncpy(months, month, 2);
