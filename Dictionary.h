@@ -12,7 +12,3 @@ typedef struct Dictionary_t {
 } Dictionary;
 
 Dictionary* dict_new();
-void dict_add(Dictionary *dictionary, char *key, char *value);
-int dict_has(Dictionary *dictionary, char *key);
-void dict_remove(Dictionary *dictionary,  char *key);
-void dict_free(Dictionary *dictionary);
